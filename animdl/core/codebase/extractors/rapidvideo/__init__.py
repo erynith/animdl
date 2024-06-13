@@ -8,7 +8,7 @@ from .utils import decipher_salted_aes
 
 CONTENT_ID_REGEX = regex.compile(r"embed-6/([^?#&/.]+)")
 
-SALT_SECRET_ENDPOINT = "https://github.com/enimax-anime/key/raw/e6/key.txt"
+SALT_SECRET_ENDPOINT = "https://github.com/cinemaxhq/keys/raw/e1/key"
 
 
 @lru_cache()
